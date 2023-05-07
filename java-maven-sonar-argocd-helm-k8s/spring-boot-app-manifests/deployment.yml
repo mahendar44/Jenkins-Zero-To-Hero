@@ -19,3 +19,5 @@ spec:
         image: abhishekf5/ultimate-cicd:5
         ports:
         - containerPort: 8080
+      imagePullSecrets:                             # here                             
+        - name: "sapcemission13564b3d-auth"
